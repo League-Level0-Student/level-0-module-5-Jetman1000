@@ -23,11 +23,13 @@ public class Code4Life {
 public static void main(String[] args) {
 	String s=JOptionPane.showInputDialog("How many hours have you spent coding this week?");
 int x=Integer.parseInt(s);
+
 if(x>=3) {
 	JOptionPane.showMessageDialog(null, "You're a Coding Ninja!");
+	
 }
 
-if(x>2) {
+else if(x>2) {
 JOptionPane.showMessageDialog(null, "Stop watching Youtube!");
 }
 

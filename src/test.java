@@ -1,9 +1,14 @@
 public class test{
   public static void main(String[] args){
-	  for(int i = 0; i > 5; i +=6){
-		  System.out.println(i);
-		}
+    int x = startup(-4);
+  }
 
-
+  static int startup(int v){
+    if(v >= 0){
+      return 1;
+    }else{
+      return 0;
+      
+    }
   }
 }
